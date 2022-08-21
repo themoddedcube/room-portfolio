@@ -1,5 +1,5 @@
 # room-portfolio
-Custom templete made by me for 3D room portfolio website made with blender, threejs, and vitejs. 
+Custom templete for 3D room portfolio website made with blender, threejs, and vitejs.
 
 
 For the developed room portfolio website, pull from the `main` branch. 
