@@ -78,8 +78,8 @@ export default class Controls {
                 console.log("desktop");
 
                 this.room.scale.set(0.11, 0.11, 0.11);
-                this.rectLight.width = 0.5;
-                this.rectLight.height = 0.7;
+                this.rectLight.width = .6;
+                this.rectLight.height = 0.9;
                 this.experience.camera.orthographicCamera.position.x = .12;
                 //First Section -------------------------------------
                 this.firstMoveTimeline = new GSAP.timeline({
