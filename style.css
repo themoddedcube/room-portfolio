@@ -82,6 +82,25 @@ svg{
 
 }
 
+/* Arrow ---------------------------------------------------------------------------------- */
+
+.arrow-svg-wrapper{
+  position: absolute;
+  top: 90%;
+  left: 46.5%;
+  transform: translate(-50%, -50%);
+  animation: bounce 0.5s ease-in alternate infinite;
+}
+
+@keyframes bounce {
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(8px);
+  }
+}
+
 /* Toggle Bar ----------------------------------------------------------------------------- */
 
 .toggle-bar{
@@ -390,6 +409,14 @@ svg{
     top: 100px; 
     right: 60px;
 
+  }
+
+  .arrow-svg-wrapper{
+    position: absolute;
+    top: 95%;
+    left: 46.5%;
+    transform: translate(-50%, -50%);
+    animation: bounce 0.5s ease-in alternate infinite;
   }
   
 }
